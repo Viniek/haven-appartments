@@ -62,18 +62,33 @@ text-decoration: none;
     flex-direction:row;
     box-sizing: border-box;
     width: auto;
-    margin-left:20px;
     height:auto;
 }
 .swimmingpoolimg{
     align-items: right;
     width:50%;
-    margin-left:50%;
+    margin-left:100rem;
+    
 }
-.swimmingpool .text {
+.textp{
     align-items: center;
     width: 100%;
     height:20rem;
-    font-size: large;
-    
+    font-size:2rem;
+    margin-top:18rem;
+
 }
+
+#myimg{
+    width: 50%;
+}
+.parking{
+    display:flex;
+    flex-direction: row;
+    }
+    .parkingimg{
+        align-items: left;
+        width:50%;
+    }
+        
+   
