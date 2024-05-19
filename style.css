@@ -1,4 +1,4 @@
-.header{
+#header{
     display:flex;
     flex-direction: row;
     background-attachment: fixed;
@@ -17,17 +17,73 @@
 list-style-type: none;
 text-decoration: none;
 }
-.spaces{
-    margin:0;
-    padding:0;
-    background-image:rgb(0,0,0),rgba(0,0,0),url('./assets/welcomehome.jpg');
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    height: 100px;
+}
+#gobottom{
+
+    margin-bottom: 20px;
+    
+}
+
+#haven{
+    float: left;
+}
+li{
+    float: right;
+
+}
+
+li a{
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(#haven){
+background-color:purple;
+font-size:larger;
+border-radius: 50%;
+border:4px solid purple;
+}
+
+#menu{
+    background-image: url(./assets/welcomehome.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    padding-bottom: 40rem;
-    align-items: center;
-    backface-visibility: visible;
-    padding:10rem;
+    color:rgb(12, 235, 23);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding-top: 10%;
+    height: 400px;
+    padding-left: 150px;
+    
+}
+
+#menup.h2{
+padding-top: 20px;
+font-weight: 400;
+
+  
+}
+#pintro{
+    padding-top: 20px;  
+    font-weight: 600; 
 }
 
 .spaces p{
@@ -37,7 +93,7 @@ text-decoration: none;
     background-color: rgba(112, 41, 99);
     padding:3rem;
     margin-bottom: 2rem;
-    
+    margin-top: 20px;
     color:white;
 }
 .oursizes{
@@ -49,10 +105,16 @@ text-decoration: none;
     color:purple;
    
 }
+#gray2{
+    margin: 0;
+}
+    
+
 .oursizes img{
     width:20rem;
     height:20rem;
     background-color: rgba(0,0,0);
+
     
 }
 .swimmingpool{
@@ -63,6 +125,8 @@ text-decoration: none;
     box-sizing: border-box;
     width: auto;
     height:auto;
+    background-color: rgb(201, 233, 218);
+    font-size: x-large;
 }
 .swimmingpoolimg{
     align-items: right;
@@ -71,12 +135,15 @@ text-decoration: none;
     
 }
 .textp{
+  
     align-items: center;
-    width: 100%;
+    width: 60%;
     height:20rem;
-    font-size:2rem;
-    margin-top:18rem;
-
+    font-size:10rem;
+    margin-top:22rem;
+    justify-content: center;
+    display: block;
+    padding-top: 30rem;
 }
 
 #myimg{
@@ -85,10 +152,12 @@ text-decoration: none;
 .parking{
     display:flex;
     flex-direction: row;
+    background-color: rgb(201, 233, 218);    
+    margin-top: 1rem;
+    font-size: x-large;
     }
     .parkingimg{
-        align-items: left;
-       
+        align-items: left;       
         margin-right:50%;
         
     }
@@ -102,6 +171,121 @@ text-decoration: none;
             height:20rem;
             
         }
-       
+       .laundry{
+        display:flex;
+        flex-direction: row;
+        background-color: rgb(201, 233, 218);
+        margin-top: 1rem;
+        font-size: x-large;
+       }
+       #laundry{
+        align-items: right;
+        margin-left:50%;
+        width:350rem;
+        height:20rem;
         
-   
+       }
+     .laundryp{
+           
+           
+     }
+     .gym{
+        display:flex;
+        flex-direction: row;
+        background-color: rgb(201, 233, 218);
+        margin-top: 1rem;
+        font-size: x-large;
+     }
+     #gym{
+        
+        align-items: left;
+     }
+    
+     .gymp{
+        align-items:center;
+        font-size: x-large;
+     }
+     .elevator{
+        display: flex;
+        background-color: rgb(201, 233, 218);
+        flex-direction: row;
+        margin-top: 1rem;
+        font-size: x-large;
+     }
+     #elevator{
+        float: right;
+        width:20%;
+        
+     }
+     #elevatorp{
+        float:left;
+        margin-right:50%;
+        width:50%;
+        color:rgb(201, 233, 218);  
+            
+     }
+     .water{
+        display:flex;
+        flex-direction: row;
+        margin-top:1rem;
+        background-color: rgb(201, 233, 218);
+        height:30rem;
+        font-size: x-large;
+     }
+     .waterimg{
+        float:left;
+        width:50%;
+
+     }
+     .waterp{
+        float:right;
+         justify-content: center;
+         width:50%;
+         margin-left:50%;
+     }
+     .theatre{
+        display:flex;
+        flex-direction:row;
+        background-color: rgb(201, 233, 218);
+        margin-top:1rem ;
+        height:30rem;
+        font-size: x-large;
+     }
+     #theatre{
+        align-items:right;
+        margin-left:50%;
+        width:70%;
+        
+     }
+     .theatrep{
+        align-items:left;
+        margin-left: 50%;
+       
+     }
+     .wifi{
+        display:flex;
+        flex-direction: row;
+        background-color: rgb(201, 233, 218);
+        margin-top: 1rem;
+        height:30rem;     
+        font-size: x-large;   
+     }
+     #wifi{
+        align-items:left;
+        margin-right:50%;
+        width:50%;
+     }
+     .wifip{
+        align-items:right;
+        margin-right: 50%;
+     }
+     .reachus{
+        background-color: rgb(201, 233, 218);
+        font-size: x-large;
+     }
+     .reachusbutton{
+        background-color: red;
+        border-radius: 100%;
+        color:white;
+        font-size: x-large;
+     }
