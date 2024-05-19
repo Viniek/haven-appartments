@@ -127,6 +127,7 @@ font-weight: 400;
     height:auto;
     background-color: rgb(201, 233, 218);
     font-size: x-large;
+    font-family: ;
 }
 .swimmingpoolimg{
     align-items: right;
@@ -171,24 +172,31 @@ font-weight: 400;
             height:20rem;
             
         }
-       .laundry{
-        display:flex;
-        flex-direction: row;
-        background-color: rgb(201, 233, 218);
-        margin-top: 1rem;
-        font-size: x-large;
-       }
-       #laundry{
-        align-items: right;
-        margin-left:50%;
-        width:350rem;
-        height:20rem;
+
+        .laundry{
+            display:flex;
+            flex-direction: row;
+            background-color: rgb(201, 233, 218);    
+            margin-top: 1rem;
+            font-size: x-large;
+            }
+            .laundryimg{
+                align-items: left;       
+                margin-right:50%;
+                
+            }
+                .kaundryp{
+                    align-items: right;
+                    width:50%;
         
+                }
+                #laundry{
+                    width: 50%;
+                    height:20rem;
+                    
        }
-     .laundryp{
-           
-           
-     }
+        
+     
      .gym{
         display:flex;
         flex-direction: row;
@@ -205,25 +213,28 @@ font-weight: 400;
         align-items:center;
         font-size: x-large;
      }
+   
      .elevator{
-        display: flex;
-        background-color: rgb(201, 233, 218);
+        display:flex;
         flex-direction: row;
+        background-color: rgb(201, 233, 218);    
         margin-top: 1rem;
         font-size: x-large;
-     }
-     #elevator{
-        float: right;
-        width:20%;
-        
-     }
-     #elevatorp{
-        float:left;
-        margin-right:50%;
-        width:50%;
-        color:rgb(201, 233, 218);  
+        }
+        .elevatorimg{
+            align-items: left;       
+            margin-right:50%;
             
-     }
+        }
+            .elevatorp{
+                align-items: right;
+                width:50%;
+    
+            }
+            #elevator{
+                width: 50%;
+                height:20rem;
+            }
      .water{
         display:flex;
         flex-direction: row;
