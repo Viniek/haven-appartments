@@ -62,17 +62,17 @@ border:4px solid purple;
 }
 
 #menu{
-    background-image:url(./assets/welcomehome.jpg);
-    background-repeat: no-repeat;
+    background-image:url(./assets/home.jpeg);
+    opacity:1;
     background-size:cover;
-    color:rgb(78, 14, 226);
+    color:rgb(253, 253, 253);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 10%;
     height: 400px;
     padding-left: 150px;
-    
+    font-size: xx-large;
 }
 
 #menup.h2{
