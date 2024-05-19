@@ -254,42 +254,50 @@ font-weight: 400;
          width:50%;
          margin-left:50%;
      }
+    
+    
      .theatre{
         display:flex;
-        flex-direction:row;
-        background-color: rgb(201, 233, 218);
-        margin-top:1rem ;
-        height:30rem;
-        font-size: x-large;
-     }
-     #theatre{
-        align-items:right;
-        margin-left:50%;
-        width:70%;
-        
-     }
-     .theatrep{
-        align-items:left;
-        margin-left: 50%;
-       
-     }
-     .wifi{
-        display:flex;
         flex-direction: row;
-        background-color: rgb(201, 233, 218);
+        background-color: rgb(201, 233, 218);    
         margin-top: 1rem;
-        height:30rem;     
-        font-size: x-large;   
-     }
-     #wifi{
-        align-items:left;
-        margin-right:50%;
-        width:50%;
-     }
-     .wifip{
-        align-items:right;
-        margin-right: 50%;
-     }
+        font-size: x-large;
+        }
+        .theatreimg{
+            align-items: left;       
+            margin-right:50%;
+            
+        }
+            .theatrep{
+                align-items: right;
+                width:50%;
+    
+            }
+            #theatre{
+                width: 50%;
+                height:20rem;
+                
+            }
+     
+            .wifi{
+                display:flex;
+                flex-direction: row;
+                margin-top:1rem;
+                background-color: rgb(201, 233, 218);
+                height:30rem;
+                font-size: x-large;
+             }
+             .wifiimg{
+                float:left;
+                width:50%;
+        
+             }
+             .wifip{
+                float:right;
+                 justify-content: center;
+                 width:50%;
+                 margin-left:50%;
+             }
      .reachus{
         background-color: rgb(201, 233, 218);
         font-size: x-large;
