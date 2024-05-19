@@ -308,3 +308,35 @@ font-weight: 400;
         color:white;
         font-size: x-large;
      }
+     /* Adjustments for the scroll container */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    max-height: 500px; /* Adjust as needed */
+}
+
+/* Add animation to the images */
+.scroll-container img {
+    margin-right: 20px;
+}
+
+/* Define the animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Apply animation to the container */
+.scroll-container {
+    animation: scroll 20s linear infinite; /* Adjust duration as needed */
+}
+
+/* Pause animation on hover */
+.scroll-container:hover {
+    animation-play-state: paused;
+}
